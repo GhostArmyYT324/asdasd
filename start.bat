@@ -1,6 +1,6 @@
 @echo off
 :loop
-node server
+node index.js
 echo.
 echo Press any key to restart server...
 pause>nul

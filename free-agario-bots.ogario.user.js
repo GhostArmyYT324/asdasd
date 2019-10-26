@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Free Agar.io Bots (OGARio Version)
-// @version       1.0.10
+// @version      1.0.10
 // @description  Free open source agar.io bots with OGARio
 // @author       Nel & szymy (OGARio deobfuscated by ReF)
 // @grant        GM_xmlhttpRequest
 // @run-at       document-start
 // @match        *://agar.io/*
-// @connect      sonnybuchan.co.uk
+// @connect      pastebin.com
 // @connect      cdn.ogario.ovh
 // ==/UserScript==
 
@@ -21,14 +21,14 @@ if(location.host === 'agar.io' && location.pathname === '/'){
 function modifyHTML(html){
     return html
         .replace('<head>', '<head><script src="https://bundle.run/buffer@5.2.1"></script><script src="https://pastebin.com/raw/z9hBsFYi"></script>')
-        .replace('https://cdn.ogario.ovh/v4/beta/ogario.v4.js', 'https://pastebin.com/raw/BQiT9cgW')
+        .replace('https://cdn.ogario.ovh/v4/beta/ogario.v4.js', 'https://pastebin.com/raw/4pbgasRV')
 }
 
 if(!navigator.userAgent.includes('Chrome/') || Number(navigator.userAgent.match(/Chrome\/(\d+)/)[1]) < 76) window.stop()
 
 GM_xmlhttpRequest({
     method: 'GET',
-    url: 'https:/sonnybuchan.co.uk/version.txt',
+    url: 'https://pastebin.com/raw/XE4vzVqm',
     onload(res1){
         if(res1.responseText.split(';')[0].split('=')[1] === CLIENT_VERSION){
             GM_xmlhttpRequest({

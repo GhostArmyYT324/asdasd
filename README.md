@@ -1,14 +1,24 @@
-# free-agario-bots
-Free open source agar.io bots
+#Info
+Bots can work without proxies and with proxies. If you have problem with captcha, use bots with proxies. If u don't, use bots without proxies. 
 
+# MultiName
+[MultiName] Now you can use more names at once. 
+How use it? In box for name type like this => Example: `Name1,Name2,Name3,...`
+
+# Proxies
+Bots working with HTTP, SOCKS4, SOCKS5.
+1. [freshnewproxies24](http://www.freshnewproxies24.top) 
+2. [socksproxylist24](http://www.socksproxylist24.top) 
+3. [proxyserverlist24](http://www.proxyserverlist24.top) 
+4. [proxy-list](https://www.proxy-list.download)
+
+# Discord
+Join in discord for help.
+[Join our Discord](https://discord.gg/Bm2dwey), 
 [Join our Discord](https://discord.gg/SDMNEcJ)
 
-## Usage
-[Video tutorial for Windows](https://www.youtube.com/watch?v=TkihvNIpiTw)
+# Windows
 
-
-Windows
--------
 1. Install [Node.js](https://nodejs.org)
 2. Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) extension on your browser
 3. Download the bots files from this repository as a ZIP and extract them on a folder
@@ -21,8 +31,8 @@ Windows
 10. To run the bots again just run `start.bat`, click "Connect" button and then click "Start Bots" button if you did everything right bots should start again
 11. Always make sure you wait the 30 seconds for process to close or you are gonna get captcha on your ip
 
-VPS
--------
+# VPS
+
 1. I recommend using a Ubuntu 18.04 LTS from DigitalOcean. You can get one for $5/month and you can use this [link](https://m.do.co/c/fa7a805f6e60) to get $50 on the platform
 2. Run `sudo apt install git` command
 3. Run `git clone https://github.com/xN3BULA/free-agario-bots.git` command
@@ -40,14 +50,8 @@ VPS
 15. Always make sure you wait the 30 seconds for process to close or you are gonna get captcha on the VPS ip
 16. If you wanna run it 24/7 on the VPS run `sudo npm i -g pm2` command and then run `sudo pm2 start process.js` command
 
-
-## Captcha (only for Windows)
+# Captcha (only for Windows)
 If you get captcha alert you need to change your IP or get rid of captcha by playing with your IP. You can do so by:
 - Restarting your router (only if you have a dynamic IP)
-- Connecting to a VPN server like one from [ProtonVPN](https://protonvpn.com) which you make sure that doesn't has captcha
-- Playing logged out of your agar.io account until captcha goes away
+- Connecting to a VPN server like one from [ProtonVPN](https://protonvpn.com) [NordVPN](https://nordvpn.com) which you make sure that doesn't has captcha
 
-## Donate
-PayPal: nelthedeveloper@gmail.com (original creator) 
-
-PayPal: sonnybuchan12@gmail.com
