@@ -8,7 +8,7 @@
     },
     "dependencies": {
         "colour": "^0.7.1",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "https-proxy-agent": "^2.2.2",
         "murmurhash-js": "^1.0.0",
         "request": "^2.88.0",
